@@ -425,4 +425,170 @@ background: #F58420;
 display: flex;
 justify-content: center;
 align-items: center;
+flex-direction: column;
+}
+
+.qna-box {
+  width: 1181px;
+  height: 422px;
+  gap: 40px;
+  opacity: 1;
+  border-radius: 0; /* optional if needed */
+  /* border: 1px solid black; */
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.img-right img {
+  width: 461px;
+  height: 422px;
+  opacity: 1;
+  border-radius: 20px;
+  transform: rotate(0deg);
+}
+.box-left{
+
+    gap: 33px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-item4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-item4 span{
+    width: 16px;
+    height: 16px;
+    color: #EA7D28;
+;
+}
+.item-1 {
+  width: 624px;
+  height: 22px;
+  gap: 32px;
+  opacity: 1;
+  transform: rotate(0deg);
+  display: flex; /* gap works only on flex/grid */
+  align-items: center; /* optional: aligns items vertically */
+}
+
+
+
+/* section5 started  */
+.section5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  flex-direction: column;
+  text-align: center;
+  overflow-x: hidden; /* Prevent full-page horizontal scroll */
+}
+
+.carousel-wrapper {
+  width: 100%;
+  /* max-width: 1200px; */
+  overflow-x: hidden;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-carousel {
+  width: 1320px;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 16px;
+  padding: 10px;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}
+
+.img-carousel::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.img-carousel img {
+  flex: 0 0 auto;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  width: 224;
+height: 398;
+opacity: 1;
+gap: 8px;
+
+}
+
+.img-carousel img:hover {
+  transform: scale(1.05);
+}
+
+
+
+/* section6 is getting starts from here */
+.section6 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  background-color: #fff;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1320px;
+  width: 100%;
+}
+
+.head-sec6 h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.container-faqs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px 48px;
+  width: 1320px;
+  padding: 0 20px;
+}
+
+.container-item6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #D0D0D0;
+  padding: 16px 0;
+  font-size: 16px;
+  
+}
+
+.faq-question {
+ 
+  font-family: Figtree;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+line-height: 130%;
+letter-spacing: 0%;
+
+}
+
+.faq-icon {
+  color: orange;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
 }
