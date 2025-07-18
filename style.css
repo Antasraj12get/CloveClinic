@@ -1,0 +1,428 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #fffaf5; /* matches the screenshot background */
+}
+
+nav {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+background-color: #d2d7aa;
+}
+
+.logo img {
+  height: 52px;
+  width: auto;
+}
+
+.details {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+/* Book Appointment Button */
+.book-appointment {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #f8943f;
+  color: white;
+  border: 1px solid #462512;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Phone Contact Button */
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #ffffff;
+  color: #000;
+  border: 1px solid #462512;
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
+
+/* section 1 started */
+
+.section1{
+    display: flex;
+    
+}
+
+
+.section1-left img{
+    width: 967px;
+height: 450px;
+top: 70px;
+opacity: 1;
+
+}
+
+.section1-right{
+
+    width: 473px;
+    height: 450px;
+    top: 70px;
+    left: 967px;
+    gap: 20px;
+    opacity: 1;
+    border-width: 1px;
+    padding-top: 24px;
+    padding-right: 40px;
+    padding-bottom: 24px;
+    padding-left: 40px;
+    background: #FFF9F4;
+border: 1px solid #FFE0C4;
+}
+
+.header-sec1{
+
+    width: 393px;
+    height: 76px;
+    gap: 8px;
+    opacity: 1;
+}
+
+.header-sec1 h3{
+    font-family: Figtree;
+font-weight: 700;
+font-style: Bold;
+font-size: 20px;
+line-height: 130%;
+letter-spacing: 0%;
+
+}
+
+.header-sec1 p{
+    font-family: Figtree;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 130%;
+letter-spacing: 0%;
+color: #474747;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+/* Input Fields */
+.input-group input {
+  width: 100%;
+  height: 40px;
+  padding: 10px 14px;
+  border-radius: 25px;
+  border: 1px solid #f6e2d1;
+  font-size: 14px;
+  outline: none;
+  background-color: white;
+}
+
+/* Captcha Group */
+.captcha-group {
+  position: relative;
+  display: flex;
+}
+
+.captcha-group input {
+  flex: 1;
+  border-radius: 25px 0 0 25px;
+}
+
+.captcha-box {
+  width: 80px;
+background:  #462512;
+  color: white;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  font-size: 14px;
+}
+
+/* Checkbox */
+.checkbox-group {
+  font-family: 'Figtree', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 130%;
+  letter-spacing: 0;
+  color: #3a3a3a;
+}
+
+/* Optional: Style the links inside the checkbox text */
+.checkbox-group a {
+  color: #4e2c1c;
+  text-decoration: underline;
+}
+
+/* Checkbox itself spacing */
+.checkbox-group input[type="checkbox"] {
+  accent-color: #f8943f;
+  margin-right: 6px;
+}
+
+
+/* Submit Button */
+.submit-btn {
+background: #F58420;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #e88228;
+}
+
+
+
+/* section 2 have been started */
+/* --- Section Layout --- */
+.section2 {
+    margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.treatment-box {
+  width: 1320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* --- Header Section --- */
+.head-sec2 {
+  text-align: center;
+  max-width: 880px;
+}
+
+.head-sec2 h2 {
+  font-family: 'Figtree', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+}
+
+.head-sec2 p {
+  font-family: 'Figtree', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #474747;
+}
+
+/* --- Cards --- */
+.card-sec2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.firstCard {
+  width: 640px;
+  height: 332px;
+  border-radius: 20px;
+  border: 1px solid #f7d5a5;
+  overflow: hidden;
+  background: #fff;
+  display: flex;
+}
+
+/* --- Card Content --- */
+.firstCard img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content-sec2 {
+  width: 50%;
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #fff9f4;
+  border-left: 1px solid #ffe0c4;
+}
+
+/* --- Upper Head --- */
+.upper-head{
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+.upper-head h3 {
+  font-family: 'Figtree', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+.upper-head p {
+  font-family: 'Figtree', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #474747;
+}
+
+/* --- Mid List --- */
+.mid-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mid-item {
+  font-family: 'Figtree', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  margin-bottom: 4px;
+}
+
+.mid-list ul {
+  padding-left: 20px;
+}
+
+.mid-list li {
+  font-family: 'Figtree', sans-serif;
+  font-weight: 400;
+  font-style: normal; /* "Regular" is not a valid value, "normal" is */
+  font-size: 16px;     /* Updated from 14px as per your instruction */
+  line-height: 130%;
+  letter-spacing: 0;
+  color: #474747;
+}
+
+.price-list {
+  width: 147px;
+  height: 46px;
+  display: flex;
+  gap: 4px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.price1 {
+  font-family: 'Figtree', sans-serif;
+  font-weight: 600; /* SemiBold */
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0;
+  color: #F58420;
+
+}
+.price2 {
+  font-family: 'Figtree', sans-serif;
+  font-weight: 700; /* Bold */
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+.getFree {
+  width: 181px;
+  height: 38px;
+  padding: 8px 20px;
+  gap: 16px;
+  opacity: 1;
+  border-radius: 50px;
+  background-color: #F58420;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.get-text {
+  font-family: 'Figtree', sans-serif;
+  font-weight: 600;
+  font-style: normal; /* 'SemiBold' isn't a valid value, use normal and set weight to 600 */
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: white;
+}
+
+
+
+/* section 3 startrd */
+
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container1-sec3 {
+  width: 295px;
+  height: 200px;
+  opacity: 1;
+  border-radius: 20px;
+}
+
+.sec3-img-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 40px;
+}
+
+
+/* section4 started */
+
+.section4{
+    padding-top: 80px;
+    width: 1440px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
