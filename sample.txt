@@ -1,191 +1,33 @@
-  <section class="section2">
-            <div class="treatment-box">
-                <header class="head-sec2">
-                    <h2>Types of Root Canal Treatments</h2>
-                    <p>In a root canal, the dentist removes infected pulp, cleans the tooth, and fills it with special
-                        material.</p>
-                </header>
 
-                <div class="card-sec2">
-                    <article class="firstCard">
-                        <img src="/assests/image 453.png" alt="Root Canal Illustration" />
-                        <div class="content-sec2">
-                            <header class="upper-head">
-                                <h3>Root Canal Treatment</h3>
-                                <p>Ideal for infected or damaged tooth</p>
-                            </header>
+/* section 3 startrd */
 
-                            <div class="mid-list">
-                                <h4 class="mid-item">Types of RCT</h4>
-                                <ul>
-                                    <li>Root Canal Treatment</li>
-                                    <li>Split RCT</li>
-                                    <li>Split RCT with rubber dam</li>
-                                    <li>Split RCT with laser</li>
-                                </ul>
-                            </div>
-                            <div class="price-list">
-                                <span class="price1">
-                                    Starting Price
-                                </span>
-                                <span class="price2">₹ 19,999</span>
-                            </div>
-                            <div class="getFree">
-                                <div class="get-text">
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
 
-                                    Get Free Consultation
-                                </div>
-                            </div>
-                        </div>
-                    </article>
+.container1-sec3 {
+  width: 295px;
+  height: 200px;
+  opacity: 1;
+  border-radius: 20px;
+}
+.sec3-img-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  overflow-x: auto;
+  max-width: 100%;
+  width: 1440px;
+  padding: 0 26px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
 
+.sec3-img-container::-webkit-scrollbar {
+  display: none;
+}
 
-
-
-                    <article class="firstCard">
-                        <img src="/assests/image 453.png" alt="Root Canal Illustration" />
-                        <div class="content-sec2">
-                            <header class="upper-head">
-                                <h3>Root Canal Treatment</h3>
-                                <p>Ideal for infected or damaged tooth</p>
-                            </header>
-
-                            <div class="mid-list">
-                                <h4 class="mid-item">Types of RCT</h4>
-                                <ul>
-                                    <li>Root Canal Treatment</li>
-                                    <li>Split RCT</li>
-                                    <li>Split RCT with rubber dam</li>
-                                    <li>Split RCT with laser</li>
-                                </ul>
-                            </div>
-                            <div class="price-list">
-                                <span class="price1">
-                                    Starting Price
-                                </span>
-                                <span class="price2">₹ 19,999</span>
-                            </div>
-                            <div class="getFree">
-                                <div class="get-text">
-
-                                    Get Free Consultation
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-
-
-
-
-
-
-                    
-
-                    <article class="firstCard">
-                        <img src="/assests/image 453.png" alt="Root Canal Illustration" />
-                        <div class="content-sec2">
-                            <header class="upper-head">
-                                <h3>Root Canal Treatment</h3>
-                                <p>Ideal for infected or damaged tooth</p>
-                            </header>
-
-                            <div class="mid-list">
-                                <h4 class="mid-item">Types of RCT</h4>
-                                <ul>
-                                    <li>Root Canal Treatment</li>
-                                    <li>Split RCT</li>
-                                    <li>Split RCT with rubber dam</li>
-                                    <li>Split RCT with laser</li>
-                                </ul>
-                            </div>
-                            <div class="price-list">
-                                <span class="price1">
-                                    Starting Price
-                                </span>
-                                <span class="price2">₹ 19,999</span>
-                            </div>
-                            <div class="getFree">
-                                <div class="get-text">
-
-                                    Get Free Consultation
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-
-
-
-
-
-
-                    
-
-                    <article class="firstCard">
-                        <img src="/assests/image 453.png" alt="Root Canal Illustration" />
-                        <div class="content-sec2">
-                            <header class="upper-head">
-                                <h3>Root Canal Treatment</h3>
-                                <p>Ideal for infected or damaged tooth</p>
-                            </header>
-
-                            <div class="mid-list">
-                                <h4 class="mid-item">Types of RCT</h4>
-                                <ul>
-                                    <li>Root Canal Treatment</li>
-                                    <li>Split RCT</li>
-                                    <li>Split RCT with rubber dam</li>
-                                    <li>Split RCT with laser</li>
-                                </ul>
-                            </div>
-                            <div class="price-list">
-                                <span class="price1">
-                                    Starting Price
-                                </span>
-                                <span class="price2">₹ 19,999</span>
-                            </div>
-                            <div class="getFree">
-                                <div class="get-text">
-
-                                    Get Free Consultation
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-
-
-
-                    <!-- <article class="firstCard">
-                        <img src="/assests/image 453 (1).png" alt="Root Canal Illustration" />
-                        <div class="content-sec2">
-                            <header class="upper-head">
-                                <h3>Re-Root Canal Treatment</h3>
-                                <p>Ideal issues that persist or recur after an initial root canal treatment</p>
-                            </header>
-
-                            <div class="mid-list">
-                                <h4 class="mid-item">Types of RCT</h4>
-                                <ul>
-                                    <li>Re-RCT with rubber dam</li>
-                                    <li>Re-RCT laser specialist </li>
-                                    <li>e-RCT retrieval of old RCT filling</li>
-                                </ul>
-                            </div>
-                            <div class="price-list">
-                                <span class="price1">
-                                    Starting Price
-                                </span>
-                                <span class="price2">₹ 19,999</span>
-                            </div>
-                            <div class="getFree">
-                                <div class="get-text">
-
-                                    Get Free Consultation
-                                </div>
-                            </div>
-                        </div>
-                    </article> -->
-
-
-                </div>
-            </div>
-        </section>
